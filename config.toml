@@ -1,3 +1,20 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Alessandro's Blog"
+author = "Alessandro Wollek"
+canonifyurls = true
+theme = "distillpub"
+
+[params]
+    description = "Alessandro Wollek's Blog"
+    keywords = ["blog", "deep learning" "emacs"]
+    color = "#0f2e3d"
+
+[menu]
+
+    [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    title = "about"
+    url = "/about"
+    weight = -10
