@@ -8,7 +8,7 @@ publishDir = "docs"
 
 [params]
     description = "Alessandro Wollek's Blog"
-    keywords = ["blog", "deep learning" "emacs"]
+    keywords = ["blog", "deep learning", "emacs"]
     color = "#0f2e3d"
 
 [menu]
