@@ -4,7 +4,6 @@ title = "Alessandro's Blog"
 author = "Alessandro Wollek"
 canonifyurls = true
 theme = "distillpub"
-publishDir = "docs"
 
 [params]
     description = "Alessandro Wollek's Blog"
