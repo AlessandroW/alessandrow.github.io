@@ -2107,7 +2107,7 @@ d-appendix > distill-appendix {
     </div>
     <div>
       <h3>Citation</h3>
-        <p><a href="#citation">${frontMatter.concatenatedAuthors}, ${frontMatter.publishedYear}</a></p>
+        <p><a href="{{ .Permalink }}#citation">${frontMatter.concatenatedAuthors}, ${frontMatter.publishedYear}</a></p>
     </div>
   </div>
 `;
