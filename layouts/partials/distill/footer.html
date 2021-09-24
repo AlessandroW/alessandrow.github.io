@@ -49,12 +49,15 @@
     </div>
 
     <div class="footer-close">
-      <p>&copy; {{ now.Format "2006" }}</p>
-      <p>
-        <i class="fas fa-bolt" aria-hidden="true"></i> by <a target="_blank" href="https://gohugo.io/">Hugo</a> | 
-        <i class="fas fa-paint-brush" aria-hidden="true"></i> by <a target="_blank" href="https://distill.pub/">Distill</a> |
-        <i class="fas fa-code" aria-hidden="true"></i> by <a target="_blank" href="https://github.com/activatedgeek/distillpub">Sanyam Kapoor</a>
-      </p>
+        <p> &copy; {{ now.Format "2006" }}, <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p>
+        <p>
+            Made with ❤ by {{ .Site.Copyright }}
+        </p>
+        <p>
+            Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>,
+            <a target="_blank" href="https://distill.pub/">Distill</a>,
+            and <a target="_blank" href="https://github.com/activatedgeek/distillpub">distillpub</a>
+        </p>
     </div>
   </div>
 </dt-footer>

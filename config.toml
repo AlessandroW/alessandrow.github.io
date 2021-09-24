@@ -4,11 +4,24 @@ title = "Alessandro's Blog"
 author = "Alessandro Wollek"
 canonifyurls = true
 theme = "distillpub"
+copyright = "Alessandro Wollek"
+
+# [author]
+#     name = "Alessandro Wollek"
+#     email = "a+blog@wollek.dev"
 
 [params]
     description = "Alessandro Wollek's Blog"
     keywords = ["blog", "deep learning", "emacs"]
     color = "#0f2e3d"
+
+    [[params.social]]
+    class = "fab fa-github"
+    url = "https://github.com/alessandrow"
+
+    [[params.social]]
+    class = "fab fa-twitter"
+    url = "https://twitter.com/traintestsplit"
 
 [menu]
 
