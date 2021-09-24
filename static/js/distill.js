@@ -1980,11 +1980,16 @@ d-appendix > distill-appendix {
   }
 
   function serializeFrontmatterToBibtex(frontMatter) {
-    return `@article{${frontMatter.slug},
+    const today = new Date();
+    const day = String(today.getDate()).padStart(2, '0');
+    const month = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    const year = today.getFullYear();
+    return `@misc{${frontMatter.slug},
   author = {${frontMatter.bibtexAuthors}},
   title = {${frontMatter.title}},
-  url = {${window.location.href}},
   year = {${frontMatter.publishedYear}},
+  url = {${window.location.href}},
+  note = {Accessed: ${year}-${month}-${day}}
 }`;
   }
 
@@ -9059,7 +9064,7 @@ distill-header .nav a {
       html += `
     <h3 id="citation">Citation</h3>
     <p>For attribution, please cite this work as</p>
-    <pre class="citation short">${frontMatter.concatenatedAuthors}, ("${frontmatter.publishedYear()}", "${frontmatter.publishedMonth()}". "${frontmatter.publishedDay()}")"${frontMatter.title}", Retrieved from "${window.location.href}"</pre>
+    <pre class="citation short">${frontMatter.bibtexAuthors} (${frontMatter.publishedYear}, ${frontMatter.publishedMonth} ${frontMatter.publishedDay}). ${frontMatter.title} [Blog post]. Retrieved from ${window.location.href}</pre>
     <p>BibTeX citation</p>
     <pre class="citation long">${serializeFrontmatterToBibtex(frontMatter)}</pre>
     `;
