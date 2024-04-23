@@ -1,0 +1,59 @@
+#contact-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: calc(var(--pico-nav-element-spacing-vertical) * 2);
+}
+#contact-button {
+    width: 100%;
+}
+#profile-picture {
+    border-radius: 50%;
+    width:100%;
+    max-width:256px;
+}
+#profile-picture-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+  align-items: stretch;
+  align-content: stretch;
+}
+
+section {
+    margin-bottom: calc(var(--pico-spacing) * 3);
+}
+
+body>header .container {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+
+@media (min-width: 800px) {
+    #nav-separator::before {
+        margin-right: calc(var(--pico-nav-element-spacing-horizontal) * 2);
+        border-left: var(--pico-border-width) solid var(--pico-form-element-border-color);
+    }
+    #nav-menu {
+        display: none;
+    }
+}
+@media (max-width: 799px) {
+  .nav-primary {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  .nav-menu {
+        display: block;
+    }
+}
