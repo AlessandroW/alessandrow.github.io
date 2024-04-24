@@ -40,7 +40,7 @@
                                 >
                             </li>
                             <li>
-                                <a href="indexe_en.html#projects" class="contrast"
+                                <a href="index_en.html#projects" class="contrast"
                                     >Projects</a
                                 >
                             </li>
