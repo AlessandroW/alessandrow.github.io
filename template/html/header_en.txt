@@ -1,6 +1,6 @@
 <div class="container">
     <div class="nav-brand">
-        <a aria-label="Dr. Alessandro Wollek homepage" href="index.html"
+        <a aria-label="Dr. Alessandro Wollek homepage" href="index_en.html"
             ><img src="assets/images/logo.svg" height="64px" width="64px"
         /></a>
     </div>
@@ -30,34 +30,34 @@
                         </summary>
                         <ul dir="rtl">
                             <li>
-                                <a href="index.html#services" class="contrast"
-                                    >Dienstleistungen</a
+                                <a href="index_en.html#services" class="contrast"
+                                    >Services</a
                                 >
                             </li>
                             <li>
-                                <a href="index.html#about" class="contrast"
-                                    >Über mich</a
+                                <a href="index_en.html#about" class="contrast"
+                                    >About me</a
                                 >
                             </li>
                             <li>
-                                <a href="index.html#projects" class="contrast"
-                                    >Projekte</a
+                                <a href="indexe_en.html#projects" class="contrast"
+                                    >Projects</a
                                 >
                             </li>
                             <li>
-                                <a href="index.html#contact" class="contrast"
-                                    >Kontakt</a
+                                <a href="index_en.html#contact" class="contrast"
+                                    >Contact</a
                                 >
                             </li>
                             <li>
                                 <a
                                     class="contrast"
-                                    aria-label="Switch to English version"
-                                    href="index_en.html"
-                                    hreflang="en"
+                                    aria-label="Zur deutschen Version wechseln"
+                                    href="index.html"
+                                    hreflang="de"
                                     rel="alterante"
                                 >
-                                    English
+                                    Deutsch
                                 </a>
                             </li>
                             <li>

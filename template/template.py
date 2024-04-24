@@ -14,5 +14,8 @@ def render(filename):
     with open(OUTPUT_DIR / filename, "w") as f:
         f.write(website.render())
 
-render("index.html")
-render("impressum_datenschutz.html")
+
+if __name__ == "__main__":
+    render("index.html")
+    render("index_en.html")
+    render("impressum_datenschutz.html")
