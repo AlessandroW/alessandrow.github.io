@@ -45,7 +45,7 @@ body>header .container {
         display: none;
     }
     #main{
-      max-width: 890px;
+      max-width: 1024px;
     }
 }
 @media (max-width: 799px) {
