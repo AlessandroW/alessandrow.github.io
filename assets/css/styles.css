@@ -31,7 +31,9 @@ body>header .container {
   display:flex;
   align-items:center;
   justify-content:space-between;
+  max-width: 1024px;
 }
+
 
 
 @media (min-width: 800px) {
@@ -41,6 +43,9 @@ body>header .container {
     }
     #nav-menu {
         display: none;
+    }
+    #main{
+      max-width: 890px;
     }
 }
 @media (max-width: 799px) {
@@ -53,7 +58,4 @@ body>header .container {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: none;
   }
-  .nav-menu {
-        display: block;
-    }
 }
