@@ -57,7 +57,7 @@
                                     hreflang="en"
                                     rel="alterante"
                                 >
-                                    English
+                                    🇺🇸
                                 </a>
                             </li>
                             <li>
@@ -160,7 +160,7 @@
                     hreflang="en"
                     rel="alterante"
                 >
-                    English
+                    🇺🇸
                 </a>
             </li>
         </ul>
